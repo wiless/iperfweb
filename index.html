@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="iperf.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', { 'packages': ['gauge'] });
+        google.charts.setOnLoadCallback(initialize);
+    </script>
+</head>
+
+<body>
+
+    <h1>Hello  </h1>
+    <p> You are expected to see a dial below, This uses websocket and Google Visualization library for charts. This connects to a websocket at localhost:8080</p>
+    <button onclick=startstop()>Start</button>
+    <div id="chart_div" style="width: 400px; height: 120px;"></div>
+</body>
+
+</html>
