@@ -13,4 +13,5 @@ go build server.go
 - Open a Browser
 open http://HOSTA:8080
 
+![Screenshot](https://raw.githubusercontent.com/wiless/iperfweb/master/screenshot.png)
 
